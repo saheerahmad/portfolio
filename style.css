@@ -7,6 +7,7 @@ html{
     font-family: 'Noto Sans KR', sans-serif;
 }
 .para{
+    height: 20%;
     box-shadow: 50px;
     vertical-align: top;
     padding-top: 5%;
