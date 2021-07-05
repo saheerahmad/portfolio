@@ -4,24 +4,56 @@ html{
 .titleName{
     color: white;
     text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 .para{
     height: 20%;
     box-shadow: 50px;
     vertical-align: top;
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 5%;
     padding-right: 5%;
     font-size: 100%;
-    font-family: 'Noto Sans KR', sans-serif;;
+    font-family: 'Source Serif Pro', serif;
+    text-align: justify;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+.logos{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.titlepara{
+    font-weight: 600;
+    vertical-align: middle;
+    padding-left: 3%;
+    padding-right: 5%;
+    font-size: 150%;
+    font-family: 'Source Serif Pro', serif;
     text-align: justify;
     color: black;
     margin-left: 5%;
     margin-right: 5%;
     background-color: white;
 }
-.logos{
-    text-align: center;
+.projects{
+    height: 15%;
+    width: 15%;
+    box-shadow: 50px;
+    vertical-align: top;
+    padding-left: 5%;
+    padding-top: 5%;
     padding-bottom: 5%;
+    padding-right: 5%;
+    font-size: 100%;
+    font-family: 'Source Serif Pro', serif;
+    text-align: justify;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
 }
