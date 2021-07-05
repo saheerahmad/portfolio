@@ -1,0 +1,12 @@
+html{
+    background-color: black;
+}
+.titleName{
+    color: rgb(223, 222, 222);
+}
+.para{
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(77, 75, 75);
+}
