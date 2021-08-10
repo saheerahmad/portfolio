@@ -1,59 +1,79 @@
-html{
-    background-color: rgb(56, 56, 56);
-}
-.titleName{
-    color: white;
-    text-align: center;
-    font-family: 'Source Serif Pro', serif;
-}
-.para{
-    height: 20%;
-    box-shadow: 50px;
-    vertical-align: top;
-    padding-top: 1%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    font-size: 100%;
-    font-family: 'Source Serif Pro', serif;
-    text-align: justify;
-    color: black;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    background-color: white;
-}
-.logos{
-    text-align: center;
-    padding-bottom: 5%;
-}
-.titlepara{
-    font-weight: 600;
-    vertical-align: middle;
-    padding-left: 3%;
-    padding-right: 5%;
-    font-size: 150%;
-    font-family: 'Source Serif Pro', serif;
-    text-align: justify;
-    color: black;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: white;
-}
-.projects{
-    height: 15%;
-    width: 15%;
-    box-shadow: 50px;
-    vertical-align: top;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    font-size: 100%;
-    font-family: 'Source Serif Pro', serif;
-    text-align: justify;
-    color: black;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    background-color: white;
-}
+    html {
+        background-color: black;
+        overflow-x: hidden;
+    }
+    
+    nav {
+        width: 100%;
+        background-color: black;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 10%;
+        left: 75%;
+    }
+    
+    ul li {
+        position: relative;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    
+    ul li a::before,
+    ul li a::after {
+        content: attr(data-text);
+        position: absolute;
+    }
+    
+    ul li a {
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: .5s;
+    }
+    
+    ul li a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    
+    .bigName {
+        position: absolute;
+        top: 10%;
+        font-size: 100px;
+        background-color: black;
+        word-wrap: break-word;
+        color: white;
+        line-height: 6rem;
+    }
+    
+    .saheer {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        color: red;
+    }
+    
+    .saheer:hover {
+        animation: saheerMoves 1s ease-in-out 0s forwards;
+    }
+    
+    @keyframes saheerMoves {
+        0% {
+            top: 50%;
+            left: 10%;
+        }
+        50% {
+            top: 50%;
+            left: 40%;
+        }
+        100% {
+            top: 50%;
+            left: 10%;
+        }
+    }
