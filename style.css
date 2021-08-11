@@ -45,8 +45,8 @@
     .bigName {
         position: absolute;
         top: 10%;
+        left: 0%;
         font-size: 100px;
-        background-color: black;
         word-wrap: break-word;
         color: white;
         line-height: 6rem;

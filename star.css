@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    background: black;
+}
+
+span {
+    /* star */
+    position: relative;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    position: fixed;
+    animation-name: particleAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+span::before {
+    /*  star tail */
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100px;
+    right: 1px;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(rgb(158, 3, 3), rgb(131, 13, 13, 1), rgba(0, 0, 255, 0));
+}
+
+span:nth-of-type(1) {
+    top: 25%;
+    animation-duration: 10s;
+}
+
+span:nth-of-type(2) {
+    top: 50%;
+    animation-duration: 16s;
+}
+
+span:nth-of-type(3) {
+    top: 75%;
+    animation-duration: 20s;
+}
+
+span:nth-of-type(4) {
+    top: 60%;
+    animation-duration: 8s;
+}
+
+span:nth-of-type(5) {
+    top: 45%;
+    animation-duration: 3s;
+}
+
+span:nth-of-type(6) {
+    top: 55%;
+    animation-duration: 5s;
+}
+
+span:nth-of-type(7) {
+    top: 30%;
+    animation-duration: 7s;
+}
+
+span:nth-of-type(8) {
+    top: 70%;
+    animation-duration: 4s;
+}
+
+@keyframes particleAnimation {
+    from {
+        left: -100px;
+    }
+    to {
+        left: calc(100% + 100px);
+    }
+}
+
+span:hover {
+    background: linear-gradient(rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+}
