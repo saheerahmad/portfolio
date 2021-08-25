@@ -87,6 +87,20 @@
         left: 10%;
     }
     
+    .download1 {
+        padding-left: auto;
+        padding-right: auto;
+        width: 20%;
+        background-color: black;
+        position: absolute;
+        left: 35%;
+    }
+    
+    .download1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
     .download a {
         text-decoration: none;
         color: white;
@@ -98,7 +112,7 @@
     }
     
     .projList:hover {
-        color: red;
+        text-decoration: underline;
     }
     
     .saheer {
