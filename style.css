@@ -140,3 +140,18 @@
             left: 10%;
         }
     }
+    
+    .links {
+        height: 2%;
+        width: 2%;
+    }
+    
+    footer {
+        position: absolute;
+        align-items: center;
+        vertical-align: middle;
+        background-color: black;
+        width: 100%;
+        top: 200%;
+        left: 44%;
+    }
